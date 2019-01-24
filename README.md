@@ -9,7 +9,7 @@
 
 This Repository is used to gain knowledge on how to develop webpages in GitHub using Markdown. I will keep editing this page throughout the course with new technologies.
 
- ## Recommended Tools
+## Recommended Tools
 
 1. [GitHub Account](https://github.com/) : An account used for Creating and managing GitHub Reositories.
 1. [GitHub Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32) :A sofware for managing GitHub repositories locally in your desktop. It is easy to push and pull your repository contents.
