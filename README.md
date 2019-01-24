@@ -11,7 +11,7 @@ This Repository is used to gain knowledge on how to develop webpages in GitHub u
 
 ## Recommended Tools
 
-1. [GitHub Account](https://github.com/) : An account used for Creating and managing GitHub Reositories.
+1. [GitHub Account](https://github.com/) : An account used for Creating and managing GitHub Repositories.
 1. [GitHub Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32) : A sofware for managing GitHub repositories locally in your desktop. It is easy to push and pull your repository contents.
 1. [Notepad++](https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.exe) : This is a very useful text editor and source code editor for different programming languages.
 1. [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win) : This is a very helpful light weight text editor for creating markdown pages.
