@@ -1,5 +1,5 @@
 # chitralekha
 ## Repository links
 
-- [webpage]
-- [source]
+- [webpage](https://chitralekhach.github.io/chitralekha/)
+- [source] (https://github.com/chitralekhach/chitralekha)
