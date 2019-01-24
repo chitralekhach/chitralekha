@@ -27,4 +27,4 @@ This Repository is used to gain knowledge on how to develop webpages in GitHub u
 
 Chitralekha Chikku, Master of Applied Computer Science(In progress...)
 
-![my image](https://github.com/chitralekhach/chitralekha/blob/master/pigeon.jpg)
+![my image](https://chitralekhach.github.io/chitralekha/pigeon.jpg)
