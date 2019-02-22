@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="./css/Chitralekha.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+  
+  <title>Area of a square</title>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Chitralekha Chikku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="function.html">function</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+  <form> 
+  <main>
+
+    <h2>Area of a square</h2>
+<section class="important">
+<p >
+  Enter side of square:
+  <input id="side" type="number" placeholder="side of square" default="5">
+</p>
+<p id="test">This text will disappear once you click the button below and the result is displayed.</p>
+<p id="result"></p>
+
+<button id="clicker" type="button" class="btn btn-primary" onclick="myfunction(document.getElementById('side').value)">
+  click here to get area!
+
+
+  
+  
+
+</button>
+</section>
+
+
+<section class="ajax">
+  
+    <div id="demo">
+       
+        <button type="button" onclick="loadDoc()">About Me</button>
+        </div>
+        
+        <script>
+        function loadDoc() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("demo").innerHTML =
+              this.responseText;
+            }
+          };
+          xhttp.open("GET", "ajax_example.html", true);
+          xhttp.send();
+        }
+        </script>
+
+
+</section>
+
+  
+<script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#test").hide();
+      });
+    });
+    </script>
+
+    
+
+
+<hr>
+</main>
+
+
+<script src="./script.js"></script>
+
+<footer class="container-fluid">
+&copy; 2019 Chitralekha Chikku. 
+</footer>
+</body>
+</html>
