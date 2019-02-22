@@ -3,6 +3,6 @@ QUnit.test( "Testing calculateArea function with several sets of inputs", functi
     assert.equal(res,"9", "Tested with small positive number");
     assert.equal(myfunction(9),"81","Tested with positive number");
     assert.equal(myfunction(6),"36",'Tested the number with wrong result.');
-    assert.equal(myfunction(255),"65025",'Tested with large positive number.');
+    assert.equal(myfunction(55),"3025",'Tested with large positive number.');
     assert.equal(myfunction(-6),"36",'Tested with negative number value.')
 })
